@@ -2,6 +2,8 @@
 
 A simple console-based vending machine interface written in C, developed for learning and reviewing functions, pointers, and basic I/O in the C language.
 
+
+📘 [Leia em Português](README-ptbr.md)
 ---
 
 ## 🚀 Features
