@@ -28,6 +28,8 @@ A simple console-based vending machine interface written in C, developed for lea
 ```bash
 gcc main.c -o vending_machine
 
+---
+
 # Máquina de Vendas Automática (Linguagem C) 🇧🇷
 
 Simulação simples de uma máquina de vendas automática, desenvolvida em linguagem C. O objetivo principal é revisar funções, ponteiros, entrada e saída padrão da linguagem C.
