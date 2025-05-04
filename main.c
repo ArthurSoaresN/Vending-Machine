@@ -85,9 +85,30 @@ int main() {
 	
 		if (option == 0) {break;}
 		else if ( (option >= 1) && (option <= length_itens) ) {
-		tosell(machine[option - 1], &money);
+			
+		if (money <= 0) {
+		system("cls");
+		printf("===  Not enough money :( ===\n");
+		printf("Select an option: \n\n");
+		printf("0.Exit\n");
+		printf("1.To add money\n\n");
+		
+		scanf("%d", &option);
+		
+		if (option == 0) {
+			system("cls");
+			printf("=== Thank you and come back often ===\n\n");
+			system("pause");
 		}
-	}
+		
+		else if (option == 1) {
+			continue;
+			}
+		}
+		
+		tosell(machine[option - 1], &money); 
+		}
+	}//
 	
 	printf("end of program!\n");
 	return 0;
